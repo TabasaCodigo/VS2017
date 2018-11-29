@@ -1,0 +1,15 @@
+# Estos archivos son ignorados
+# Carpetas Componentes y Documentacion
+Componentes/
+Documentacion/
+# Carpetas bin y obj
+bin/
+obj/
+# Todos los archivos con .user
+*.user
+# Todos los archivos con .v12
+*.v12
+# Todas las carpetas Setup
+*Setup/
+# Todos los archivos con upgradeLog.htm
+*UpgradeLog*.htm

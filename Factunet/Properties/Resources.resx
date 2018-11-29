@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CadenaOriginal" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:cfd="http://www.sat.gob.mx/cfd/2" xmlns:ecc="http://www.sat.gob.mx/ecc" xmlns:psgecfd="http://www.sat.gob.mx/psgecfd" xmlns:divisas="http://www.sat.gob.mx/divisas" xmlns:detallista="http://www.sat.gob.mx/detallista" xmlns:ecb="http://www.sat.gob.mx/ecb" xmlns:implocal="http://www.sat.gob.mx/implocal" xmlns:terceros="http://www.sat.gob.mx/terceros"&gt;
+	&lt;!-- Con el siguiente método se establece que la salida deberá ser en texto --&gt;
+	&lt;!-- &lt;xsl:output method="text" version="1.0" encoding="UTF-8" indent="no"/&gt; --&gt;
+	&lt;xsl:output method="text" version="1.0" encoding="UTF-8" indent="no"/&gt;
+	&lt;!--
+		En esta sección se define la inclusión de las plantillas de utilería
+	--&gt;
+	&lt;xsl:include href="http://www.sat.gob.mx/sitio_internet/cfd/2/cadenaoriginal_2_0/utilerias.xslt"/&gt;
+	&lt;!-- 
+		En esta sección se define la inclusión de las demás plantillas de transformación para 
+		la generación de las cadenas originales de los complementos fiscales 
+	--&gt;
+	&lt;xsl:include href="http://www.sat.gob.mx/sitio_internet/cfd/ecc/ecc.xslt"/&gt;
+	&lt;xsl:include href="http://www.sat.gob.mx/sitio_internet/cfd/psgecfd/psgecfd.xslt"/&gt;
+	&lt;xsl:include href="http://www.sat.gob.mx/sitio_internet/cfd/donat/donat.xslt"/&gt;
+	&lt;xsl:include href="http://www.sat.gob.mx/sitio_internet/cfd/divisas/divisas.xslt"/&gt;
+	&lt;xsl:include href="http://www.sat.gob.mx/sitio_internet/cfd/ecb/ecb.xslt"/&gt;
+	&lt;xsl:include href="http://www.sat.gob.mx/sitio_internet/cfd/detallista/detallista.xslt"/&gt;
+	&lt;xsl:include href="http://www.sat.gob.mx/sitio_internet/cfd/implocal/implocal.xslt"/&gt;
+	&lt;xsl:include href="http://www.sat.gob.mx/sitio_internet/cfd/terceros/terceros.xslt"/&gt;
+	&lt;!-- Aquí iniciamos el procesamiento de la cadena original con su | inicial y el terminador || --&gt;
+	&lt;xsl:template match="/"&gt;|&lt;xsl:apply-templates select="/cfd:Comprobante"/&gt;||&lt;/xsl:template&gt;
+	&lt;!--  Aquí iniciamos el procesamiento de los datos incluidos en el comprobante --&gt;
+	&lt;xsl:template match="cfd:Comprobante"&gt;
+		&lt;!-- Iniciamos el tratamiento de los atributos de comprobante --&gt;
+		&lt;xsl:call-template name="Requerido"&gt;
+			&lt;xsl:with-param name="valor" select="./@version"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Opcional"&gt;
+			&lt;xsl:with-param name="valor" select="./@serie"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Requerido"&gt;
+			&lt;xsl:with-param name="valor" select="./@folio"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Requerido"&gt;
+			&lt;xsl:with-param name="valor" select="./@fecha"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Requerido"&gt;
+			&lt;xsl:with-param name="valor" select="./@noAprobacion"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Requerido"&gt;
+			&lt;xsl:with-param name="valor" select="./@anoAprobacion"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Requerido"&gt;
+			&lt;xsl:with-param name="valor" select="./@tipoDeComprobante"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Requerido"&gt;
+			&lt;xsl:with-param name="valor" select="./@formaDePago"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Opcional"&gt;
+			&lt;xsl:with-param name="valor" select="./@condicionesDePago"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Requerido"&gt;
+			&lt;xsl:with-param name="valor" select="./@subTotal"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Opcional"&gt;
+			&lt;xsl:with-param name="valor" select="./@descuento"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Requerido"&gt;
+			&lt;xsl:with-param name="valor" select="./@total"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;!--
+			Llamadas para procesar al los sub nodos del comprobante
+		--&gt;
+		&lt;xsl:apply-templates select="./cfd:Emisor"/&gt;
+		&lt;xsl:apply-templates select="./cfd:Receptor"/&gt;
+		&lt;xsl:apply-templates select="./cfd:Conceptos"/&gt;
+		&lt;xsl:apply-templates select="./cfd:Impuestos"/&gt;
+		&lt;xsl:apply-templates select="./cfd:Complemento"/&gt;
+	&lt;/xsl:template&gt;
+	&lt;!-- Manejador de nodos tipo Emisor --&gt;
+	&lt;xsl:template match="cfd:Emisor"&gt;
+		&lt;!-- Iniciamos el tratamiento de los atributos del Emisor --&gt;
+		&lt;xsl:call-template name="Requerido"&gt;
+			&lt;xsl:with-param name="valor" select="./@rfc"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Requerido"&gt;
+			&lt;xsl:with-param name="valor" select="./@nombre"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;!--
+			Llamadas para procesar al los sub nodos del comprobante
+		--&gt;
+		&lt;xsl:apply-templates select="./cfd:DomicilioFiscal"/&gt;
+		&lt;xsl:if test="./cfd:ExpedidoEn"&gt;
+			&lt;xsl:call-template name="Domicilio"&gt;
+				&lt;xsl:with-param name="Nodo" select="./cfd:ExpedidoEn"/&gt;
+			&lt;/xsl:call-template&gt;
+		&lt;/xsl:if&gt;
+	&lt;/xsl:template&gt;
+	&lt;!-- Manejador de nodos tipo Receptor --&gt;
+	&lt;xsl:template match="cfd:Receptor"&gt;
+		&lt;!-- Iniciamos el tratamiento de los atributos del Receptor --&gt;
+		&lt;xsl:call-template name="Requerido"&gt;
+			&lt;xsl:with-param name="valor" select="./@rfc"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Opcional"&gt;
+			&lt;xsl:with-param name="valor" select="./@nombre"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;!--
+			Llamadas para procesar al los sub nodos del Receptor
+		--&gt;
+		&lt;xsl:call-template name="Domicilio"&gt;
+			&lt;xsl:with-param name="Nodo" select="./cfd:Domicilio"/&gt;
+		&lt;/xsl:call-template&gt;
+	&lt;/xsl:template&gt;
+	&lt;!-- Manejador de nodos tipo Conceptos --&gt;
+	&lt;xsl:template match="cfd:Conceptos"&gt;
+		&lt;!-- Llamada para procesar los distintos nodos tipo Concepto --&gt;
+		&lt;xsl:for-each select="./cfd:Concepto"&gt;
+			&lt;xsl:apply-templates select="."/&gt;
+		&lt;/xsl:for-each&gt;
+	&lt;/xsl:template&gt;
+	&lt;!-- Manejador de nodos tipo Impuestos --&gt;
+	&lt;xsl:template match="cfd:Impuestos"&gt;
+		&lt;xsl:for-each select="./cfd:Retenciones/cfd:Retencion"&gt;
+			&lt;xsl:apply-templates select="."/&gt;
+		&lt;/xsl:for-each&gt;
+		&lt;xsl:call-template name="Opcional"&gt;
+			&lt;xsl:with-param name="valor" select="./@totalImpuestosRetenidos"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:for-each select="./cfd:Traslados/cfd:Traslado"&gt;
+			&lt;xsl:apply-templates select="."/&gt;
+		&lt;/xsl:for-each&gt;
+		&lt;xsl:call-template name="Opcional"&gt;
+			&lt;xsl:with-param name="valor" select="./@totalImpuestosTrasladados"/&gt;
+		&lt;/xsl:call-template&gt;
+	&lt;/xsl:template&gt;
+	&lt;!-- Manejador de nodos tipo Retencion --&gt;
+	&lt;xsl:template match="cfd:Retencion"&gt;
+		&lt;xsl:call-template name="Requerido"&gt;
+			&lt;xsl:with-param name="valor" select="./@impuesto"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Requerido"&gt;
+			&lt;xsl:with-param name="valor" select="./@importe"/&gt;
+		&lt;/xsl:call-template&gt;
+	&lt;/xsl:template&gt;
+	&lt;!-- Manejador de nodos tipo Traslado --&gt;
+	&lt;xsl:template match="cfd:Traslado"&gt;
+		&lt;xsl:call-template name="Requerido"&gt;
+			&lt;xsl:with-param name="valor" select="./@impuesto"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Requerido"&gt;
+			&lt;xsl:with-param name="valor" select="./@tasa"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Requerido"&gt;
+			&lt;xsl:with-param name="valor" select="./@importe"/&gt;
+		&lt;/xsl:call-template&gt;
+	&lt;/xsl:template&gt;
+	&lt;!-- Manejador de nodos tipo Complemento --&gt;
+	&lt;xsl:template match="cfd:Complemento"&gt;
+		&lt;xsl:for-each select="./*"&gt;
+			&lt;xsl:apply-templates select="."/&gt;
+		&lt;/xsl:for-each&gt;
+	&lt;/xsl:template&gt;
+	&lt;!--
+		Manejador de nodos tipo Concepto
+	--&gt;
+	&lt;xsl:template match="cfd:Concepto"&gt;
+		&lt;!-- Iniciamos el tratamiento de los atributos del Concepto --&gt;
+		&lt;xsl:call-template name="Requerido"&gt;
+			&lt;xsl:with-param name="valor" select="./@cantidad"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Opcional"&gt;
+			&lt;xsl:with-param name="valor" select="./@unidad"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Opcional"&gt;
+			&lt;xsl:with-param name="valor" select="./@noIdentificacion"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Requerido"&gt;
+			&lt;xsl:with-param name="valor" select="./@descripcion"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Requerido"&gt;
+			&lt;xsl:with-param name="valor" select="./@valorUnitario"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Requerido"&gt;
+			&lt;xsl:with-param name="valor" select="./@importe"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;!--
+			Manejo de los distintos sub nodos de información aduanera de forma indistinta 
+			a su grado de dependencia
+		--&gt;
+		&lt;xsl:for-each select=".//cfd:InformacionAduanera"&gt;
+			&lt;xsl:apply-templates select="."/&gt;
+		&lt;/xsl:for-each&gt;
+		&lt;!-- Llamada al manejador de nodos de Cuenta Predial en caso de existir --&gt;
+		&lt;xsl:if test="./cfd:CuentaPredial"&gt;
+			&lt;xsl:apply-templates select="./cfd:CuentaPredial"/&gt;
+		&lt;/xsl:if&gt;
+		&lt;!-- Llamada al manejador de nodos de ComplementoConcepto en caso de existir --&gt;
+		&lt;xsl:if test="./cfd:ComplementoConcepto"&gt;
+			&lt;xsl:apply-templates select="./cfd:ComplementoConcepto"/&gt;
+		&lt;/xsl:if&gt;
+	&lt;/xsl:template&gt;
+	&lt;!-- Manejador de nodos tipo Información Aduanera --&gt;
+	&lt;xsl:template match="cfd:InformacionAduanera"&gt;
+		&lt;!-- Manejo de los atributos de la información aduanera --&gt;
+		&lt;xsl:call-template name="Requerido"&gt;
+			&lt;xsl:with-param name="valor" select="./@numero"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Requerido"&gt;
+			&lt;xsl:with-param name="valor" select="./@fecha"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Requerido"&gt;
+			&lt;xsl:with-param name="valor" select="./@aduana"/&gt;
+		&lt;/xsl:call-template&gt;
+	&lt;/xsl:template&gt;
+	&lt;!-- Manejador de nodos tipo Información CuentaPredial --&gt;
+	&lt;xsl:template match="cfd:CuentaPredial"&gt;
+		&lt;xsl:call-template name="Requerido"&gt;
+			&lt;xsl:with-param name="valor" select="./@numero"/&gt;
+		&lt;/xsl:call-template&gt;
+	&lt;/xsl:template&gt;
+	&lt;!-- Manejador de nodos tipo ComplementoConcepto --&gt;
+	&lt;xsl:template match="cfd:ComplementoConcepto"&gt;
+		&lt;xsl:for-each select="./*"&gt;
+			&lt;xsl:apply-templates select="."/&gt;
+		&lt;/xsl:for-each&gt;
+	&lt;/xsl:template&gt;
+	&lt;!-- Manejador de nodos tipo domicilio fiscal --&gt;
+	&lt;xsl:template match="cfd:DomicilioFiscal"&gt;
+		&lt;!-- Iniciamos el tratamiento de los atributos del Domicilio Fiscal --&gt;
+		&lt;xsl:call-template name="Requerido"&gt;
+			&lt;xsl:with-param name="valor" select="./@calle"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Opcional"&gt;
+			&lt;xsl:with-param name="valor" select="./@noExterior"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Opcional"&gt;
+			&lt;xsl:with-param name="valor" select="./@noInterior"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Opcional"&gt;
+			&lt;xsl:with-param name="valor" select="./@colonia"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Opcional"&gt;
+			&lt;xsl:with-param name="valor" select="./@localidad"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Opcional"&gt;
+			&lt;xsl:with-param name="valor" select="./@referencia"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Requerido"&gt;
+			&lt;xsl:with-param name="valor" select="./@municipio"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Requerido"&gt;
+			&lt;xsl:with-param name="valor" select="./@estado"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Requerido"&gt;
+			&lt;xsl:with-param name="valor" select="./@pais"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Requerido"&gt;
+			&lt;xsl:with-param name="valor" select="./@codigoPostal"/&gt;
+		&lt;/xsl:call-template&gt;
+	&lt;/xsl:template&gt;
+	&lt;!-- Manejador de nodos tipo Domicilio --&gt;
+	&lt;xsl:template name="Domicilio"&gt;
+		&lt;xsl:param name="Nodo"/&gt;
+		&lt;!-- Iniciamos el tratamiento de los atributos del Domicilio  --&gt;
+		&lt;xsl:call-template name="Opcional"&gt;
+			&lt;xsl:with-param name="valor" select="$Nodo/@calle"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Opcional"&gt;
+			&lt;xsl:with-param name="valor" select="$Nodo/@noExterior"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Opcional"&gt;
+			&lt;xsl:with-param name="valor" select="$Nodo/@noInterior"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Opcional"&gt;
+			&lt;xsl:with-param name="valor" select="$Nodo/@colonia"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Opcional"&gt;
+			&lt;xsl:with-param name="valor" select="$Nodo/@localidad"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Opcional"&gt;
+			&lt;xsl:with-param name="valor" select="$Nodo/@referencia"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Opcional"&gt;
+			&lt;xsl:with-param name="valor" select="$Nodo/@municipio"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Opcional"&gt;
+			&lt;xsl:with-param name="valor" select="$Nodo/@estado"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Requerido"&gt;
+			&lt;xsl:with-param name="valor" select="$Nodo/@pais"/&gt;
+		&lt;/xsl:call-template&gt;
+		&lt;xsl:call-template name="Opcional"&gt;
+			&lt;xsl:with-param name="valor" select="$Nodo/@codigoPostal"/&gt;
+		&lt;/xsl:call-template&gt;
+	&lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;</value>
+  </data>
+</root>

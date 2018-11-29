@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.amazon.com.mx/AmazonAddenda" xmlns:amazon="http://www.amazon.com.mx/AmazonAddenda" elementFormDefault="qualified">
+    <xs:element name="ElementosAmazon">
+        <xs:annotation>
+            <xs:documentation>Documentation of ElementosAmazon element</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="TextoLibre" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>Documentation of the TextoLibre element</xs:documentation>
+                    </xs:annotation>
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:whiteSpace value="preserve" />
+                            <xs:minLength value="1" />
+                            <xs:maxLength value="500" />
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="LosAtributos" maxOccurs="unbounded">
+                    <xs:annotation>
+                        <xs:documentation>Documentation of LosAtributos element</xs:documentation>
+                    </xs:annotation>
+                    <xs:complexType>
+                        <xs:attribute name="identificacionUnica" use="required">
+                            <xs:annotation>
+                                <xs:documentation>Documentation of identificacionUnica</xs:documentation>
+                            </xs:annotation>
+                            <xs:simpleType>
+                                <xs:restriction base="xs:integer">
+                                    <xs:minInclusive value="1"/>
+                                    <xs:maxInclusive value="99999"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:attribute>
+                        <xs:attribute name="nombreDelAtributo" use="required">
+                            <xs:annotation>
+                                <xs:documentation>Documentation of nombreDelAtributo</xs:documentation>
+                            </xs:annotation>
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:whiteSpace value="collapse"/>
+                                    <xs:minLength value="1"/>
+                                    <xs:maxLength value="20"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:attribute>
+                        <xs:attribute name="valorDelAtributo" use="required">
+                            <xs:annotation>
+                                <xs:documentation>Documentation of valorDelAtributo</xs:documentation>
+                            </xs:annotation>
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:whiteSpace value="preserve"/>
+                                    <xs:minLength value="1"/>
+                                    <xs:maxLength value="500"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
